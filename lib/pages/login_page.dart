@@ -130,8 +130,8 @@ class LoginPage extends StatelessWidget {
                 ],
               ),
             ],
-          ),),
-    ],),
+          ),
+    ),
           const SizedBox(
               height: 135,
             ),
@@ -159,8 +159,6 @@ class LoginPage extends StatelessWidget {
                   },
                   child: const Text('        LOGIN       ', style: TextStyle(color: Colors.white),
                   ))]
-          )
-    ],),
-        );
+          ),],),],),);
   }
 }
